@@ -9,14 +9,7 @@ Medical anomaly detection aims to identify abnormal findings using only normal t
 
 <p align="center"><img width=100% src="./figs/overview_rec.png"></p>
 
-Overview of the reconstruction AE-based AD. The model is trained to minimize reconstruction loss on normal images $\mathbf{X}_n$. During inference, lesions $\delta$ in abnormal images $\mathbf{X}_a$ are assumed unable to be reconstructed by the trained model.
-
-
-
 <p align="center"><img width=100% src="./figs/Venn.png"></p>
-
-Venn diagram of $H(\mathbf{X}_n), H(\mathbf{X}_a), H(\mathbf{Z})$. (a) Relationship between $H(\mathbf{X}_n)$ and $H(\mathbf{X}_a)$; (b) $H(\mathbf{Z})$ of an AE w/o latent constraints; (c) $H(\mathbf{Z})$ of an optimal AE.
-
 
 
 ## Results
